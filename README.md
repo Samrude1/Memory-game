@@ -29,7 +29,7 @@ A classic card-flipping memory game built using **React**, **HTML**, and **CSS**
 Clone the repo and run the development server:
 
 ```bash
-git clone https://github.com/your-username/memory-game.git
+git clone https://github.com/Samrude1/memory-game.git
 cd memory-game
 npm install
 npm run dev  # or npm start depending on setup
