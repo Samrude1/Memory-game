@@ -1,6 +1,7 @@
 import "./App.css";
 import { useState, useEffect } from "react";
 import SingleCard from "./components/SingleCard";
+import Stats from "./components/Stats";
 
 const cardImages = [
   { src: "/image/helmet-1.png", matched: false },
@@ -87,6 +88,7 @@ function App() {
         ))}
       </div>
       <p>Turns: {turns}</p>
+      <Stats turns={turns} cards={cards} />
     </div>
   );
 }
